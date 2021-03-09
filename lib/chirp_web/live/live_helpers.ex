@@ -3,12 +3,9 @@ defmodule ChirpWeb.LiveHelpers do
 
   @doc """
   Renders a component inside the `ChirpWeb.ModalComponent` component.
-
   The rendered modal receives a `:return_to` option to properly update
   the URL when the modal is closed.
-
   ## Examples
-
       <%= live_modal @socket, ChirpWeb.PostLive.FormComponent,
         id: @post.id || :new,
         action: @live_action,

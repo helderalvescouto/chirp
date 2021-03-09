@@ -7,7 +7,7 @@ defmodule ChirpWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_chirp_key",
-    signing_salt: "4eB3MQEK"
+    signing_salt: "tizhgOsj"
   ]
 
   socket "/socket", ChirpWeb.UserSocket,
